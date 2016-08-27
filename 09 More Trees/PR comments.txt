@@ -1,0 +1,28 @@
+
+# Comments on RandomForestClassifiers & Original Decision Tree Model
+
+While the Random Trees result is consistent, varying depending how you 
+choose the random_state or the n_estimators, the result of the orgininal decision tree model varies a lot. The random_state defines how random the versions of the data is that the modelling takes into consideration, and the n_estimators regulates how many "random" datasets are used. It's fascinating to see how the this makes the result so much more consistent than the orginal decision tree model. 
+
+# Comments on classifier
+
+- Questions:
+Not sure why it's 10fold cross validation, cv is set at 5?
+Why are we predicting the categories, when we have them already?
+- Relation to own project:
+For a project over at data studio I created [this scraper]https://github.com/barjacks/playfair-projects/blob/master/projects/barnaby_skinner/chatter_boxes/Scraping_PDF_Bulletin_2016.ipynb of massive PDF files developing a dictionary with all the speeches in Swiss parliament of the running year. I analysed the talk length[here](https://github.com/barjacks/playfair-projects/blob/master/projects/barnaby_skinner/chatter_boxes/GRAPHIC_final.png), but it would of course be great, 
+to create a classifier of all the speeches, to see what they are actually talking 
+about. How would I go about this? In total I have 2500 speeches. Would it be 
+enough to by hand to classify 100 speeches and then go 
+
+#General comments on the homework
+
+I really enjoyed this homework and it really helped me understand, what is going on under the hood. I found this reading while I was doing the homework. It looks nice to go deeper? Do you know [the guy]? (https://github.com/amueller/introduction_to_ml_with_python) I feel I now need practice on real life dirty data sets, to fully understand how predictions models can work. I take my comments back, that I can't see how I can implement this into my reporting. I can. But how 
+can I do this technically? i.e. with the data on PERM visas? Say input nationality, wage, lawyer, job title, and get a reply what the chances could be of getting a work visa? I also feel a little shaky on how I need to prep my data to feed in it into the predictor correctly.
+ 
+# How much we you done with text processing
+
+We looked at bag of words and text blob. But really only very briefly. I feel 
+I'd really like to have another session on text processing, especially combining
+it with prediction and decision trees.
+
